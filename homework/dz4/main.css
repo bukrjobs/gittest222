@@ -2,7 +2,7 @@
     --color_light__blue: #00ffdd;
     --color_dark__blue: #0b4857;
     --grey:#c9eff0  ;
-}
+   }
 
 *{
     margin: 0;
@@ -48,7 +48,7 @@
 .header__logo{
     height: 90px;
     width: 170px;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: var(--color_dark__blue);
 }
 .nav__item{

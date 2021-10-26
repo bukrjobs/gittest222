@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #625e5e;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+
+}
+.header__cube{
+    height: 50px;
+    width: 70px;
+    background-color: #1fb926;
+    position: absolute;
+}
+.header__cube:nth-child(odd){
+    left: 30px;
+}
+.header_pos{
+    background-color: darkorange;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+}
