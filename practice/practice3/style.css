@@ -16,3 +16,39 @@
     box-sizing: border-box;
     border-radius: 8px;
 }
+.first-screen-left{
+    margin-top: 100px;
+}
+.first-screen-left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+.first-screen-left p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+}
+.first-screen-left p::before,
+.first-screen-left p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #a19e9e;
+}
+.first-screen-left p::before{
+    top: -55px;
+}
+.first-screen-left p::after {
+    bottom: -55px;
+}
+.first-screen-right img{
+    width: 100%;
+}
