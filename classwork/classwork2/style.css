@@ -1,0 +1,8 @@
+.wrap{
+    width: 800px;
+    height: 800px;
+    background-color: #FF7400;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 20px;
+}

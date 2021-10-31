@@ -1,0 +1,19 @@
+.two-screen-right{
+    height: 728px;
+    left: 0px;
+    top: 1288px;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+.two-screen-right h1{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+
+.two-screen-text{
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
