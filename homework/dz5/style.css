@@ -17,3 +17,16 @@
     line-height: 32px;
     color: #FBFDFF;
 }
+.three-screen-left h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+}
+.three-screen-text{
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
