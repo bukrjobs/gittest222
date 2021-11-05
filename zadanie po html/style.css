@@ -51,14 +51,16 @@
     border-radius: 6px 0px 0px 6px;
 }
 .search{
+    width: 101px;
+    height: 53px;
+    left: 1025px;
+    top: 159px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    background: #005BB9;
-    width: 170px;
-    height: 55px;
-    border-radius:6px;
 
 }
 
