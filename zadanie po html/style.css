@@ -61,7 +61,110 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+}
+.clock__work{
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    left: 629px;
+    top: 77px;
+}
+.adress__tov{
+    position: absolute;
+    width: 169px;
+    height: 32px;
+    left: 975px;
+    top: 81px;
+}
+.whats__button{
+    position: absolute;
+    width: 173px;
+    height: 28px;
+    left: 1204px;
+    top: 82px;
+    background: #E1EFD0;
+    border-radius: 12px;
+}
+.header__phone{
+    position: absolute;
+    width: 157px;
+    height: 23px;
+    left: 1480px;
+    top: 77px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+}
+.cvet{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+}
+.header__login{
+    position: absolute;
+    width: 411px;
+    height: 32px;
+    left: 1226px;
+    top: 170px;
+}
+.container__menu{
+    position: absolute;
+    width: 1042px;
+    height: 694px;
+    left: 266px;
+    top: 262px;
 
 }
 
-
+.menu__akciya{
+    position: absolute;
+    width: 336px;
+    height: 190px;
+    left: 1330px;
+    top: 262px;
+    background: #F4F5FA;
+    border-radius: 10px;
+}
+.menu__akciya2{
+    position: absolute;
+    width: 336px;
+    height: 190px;
+    left: 1330px;
+    top: 478px;
+    background: #F4F5FA;
+    border-radius: 10px;
+}
+.name{
+    left: 1411px;
+    top: 316px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+.total{
+    width: 66px;
+    height: 23px;
+    left: 1411px;
+    top: 402px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.buy{
+    width: 190px;
+    height: 29px;
+    left: 1565px;
+    top: 383px;
+    background: #005BB9;
+    border-radius: 6px;
+}
