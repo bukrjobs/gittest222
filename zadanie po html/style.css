@@ -767,5 +767,35 @@
     left: 1322px;
     top: 1929px;
 }
-
-
+.zap_fav_5{
+    position: absolute;
+    left: 483px;
+    top: 1948px;
+}
+.zap_fav_6{
+    position: absolute;
+    left: 823px;
+    top: 1948px;
+}
+.zap_fav_7{
+    position: absolute;
+    left: 1170px;
+    top: 1948px;
+}
+.zap_fav_8{
+    position: absolute;
+    left: 1520px;
+    top: 1948px;
+}
+.next-products{
+    position: absolute;
+    width: 187px;
+    height: 49px;
+    left: 867px;
+    top: 2018px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #005BB9;
+}
