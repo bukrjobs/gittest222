@@ -4,6 +4,9 @@
     left: 0px;
     top: 0px;
 }
+.navbar-collapse{
+    flex-grow: 0;
+}
 .navbar-brand p {
     font-weight: 500;
     font-size: 14px;
@@ -168,4 +171,601 @@
     background: #005BB9;
     border-radius: 6px;
 }
+.products__oil{
+    position: absolute;
+    width: 431px;
+    height: 184px;
+    left: 283px;
+    top: 722px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.products__filtr{
+    position: absolute;
+    width: 431px;
+    height: 184px;
+    left: 744px;
+    top: 722px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.products__radiator{
+    position: absolute;
+    width: 431px;
+    height: 184px;
+    left: 1205px;
+    top: 722px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.pereyti{
+    width: 98px;
+    height: 43px;
+    left: 313px;
+    top: 850px;
+    background: #005BB9;
+    border-radius: 4px;
+}
+.filtr{
+    position: absolute;
+    width: 163px;
+    height: 202px;
+    left: 1018px;
+    top: 712px;
+}
+.oil{
+    position: absolute;
+    width: 154px;
+    height: 202px;
+    left: 560px;
+    top: 716px;
+}
+.radiator{
+    position: absolute;
+    width: 207px;
+    height: 197px;
+    left: 1436px;
+    top: 716px;
+}
+.mini-menu__tovar{
+    position: absolute;
+    width: 241px;
+    height: 55px;
+    left: 283px;
+    top: 976px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
+.mini-menu__akciya{
+    position: absolute;
+    width: 123px;
+    height: 55px;
+    left: 544px;
+    top: 976px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.mini-menu__buynow{
+    position: absolute;
+    width: 229px;
+    height: 55px;
+    left: 687px;
+    top: 976px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.tovar{
+    position: absolute;
+    width: 177px;
+    height: 23px;
+    left: 315px;
+    top: 992px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.akciya{
+    position: absolute;
+    width: 59px;
+    height: 23px;
+    left: 576px;
+    top: 992px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+.buynow{
+    position: absolute;
+    width: 165px;
+    height: 23px;
+    left: 719px;
+    top: 992px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+
+}
+.zap1{
+    position: absolute;
+    width: 276px;
+    height: 235px;
+    left: 267px;
+    top: 1042px;
+}
+.zap2{
+    position: absolute;
+    width: 270px;
+    height: 213px;
+    left: 633px;
+    top: 1065px;
+}
+.zap3{
+    position: absolute;
+    width: 276px;
+    height: 235px;
+    left: 960px;
+    top: 1042px;
+}
+.zap4{
+    position: absolute;
+    width: 253px;
+    height: 244px;
+    left: 1334px;
+    top: 1050px;
+}
+.zap_1{
+    position: absolute;
+    width: 316px;
+    height: 25px;
+    left: 283px;
+    top: 1324px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+.zap_2{
+    position: absolute;
+    width: 316px;
+    height: 25px;
+    left: 630px;
+    top: 1324px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.zap_3{
+    position: absolute;
+    width: 316px;
+    height: 50px;
+    left: 976px;
+    top: 1324px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.zap_4{
+    position: absolute;
+    width: 316px;
+    height: 50px;
+    left: 1322px;
+    top: 1324px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.zap__1{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 283px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.zap__1_1{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 322px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+
+}
+.zap__2{
+    position: absolute;
+    width: 72px;
+    height: 26px;
+    left: 629px;
+    top: 1389px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFB800;
+}
+.zap__2_1{
+    position: absolute;
+    width: 51px;
+    height: 19px;
+    left: 709px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.zap__3{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 976px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.zap__3_1{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 1015px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.zap__4{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 1322px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.zap__4_1{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 1361px;
+    top: 1395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.z1{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 283px;
+    top: 1430px;
+}
+.z2{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 630px;
+    top: 1430px;
+
+}
+.z3{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 976px;
+    top: 1430px;
+
+}
+.z4{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 1322px;
+    top: 1430px;
+ }
+.zap_fav_1{
+    position: absolute;
+    left: 483px;
+    top: 1445px;
+
+}
+.zap_fav_2{
+    position: absolute;
+    left: 823px;
+    top: 1445px;
+}
+.zap_fav_3{
+    position: absolute;
+    left: 1170px;
+    top: 1445px;
+}
+.zap_fav_4{
+    position: absolute;
+    left: 1520px;
+    top: 1445px;
+}
+.zap5{
+    position: absolute;
+    width: 276px;
+    height: 235px;
+    left: 267px;
+    top: 1541px;
+}
+.zap6{
+    position: absolute;
+    width: 270px;
+    height: 213px;
+    left: 633px;
+    top: 1564px;
+
+}
+.zap7{
+    position: absolute;
+    width: 276px;
+    height: 235px;
+    left: 960px;
+    top: 1541px;
+
+}
+.zap8{
+    position: absolute;
+    width: 253px;
+    height: 244px;
+    left: 1334px;
+    top: 1549px;
+
+}
+.zap_5{
+    position: absolute;
+    width: 316px;
+    height: 25px;
+    left: 283px;
+    top: 1823px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+.zap_6{
+    position: absolute;
+    width: 316px;
+    height: 25px;
+    left: 630px;
+    top: 1823px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+.zap_7{
+    position: absolute;
+    width: 316px;
+    height: 50px;
+    left: 976px;
+    top: 1823px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+.zap_8{
+    position: absolute;
+    width: 316px;
+    height: 50px;
+    left: 1322px;
+    top: 1823px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+.zap__5{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 283px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.zap__5_1{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 322px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.zap__6{
+    position: absolute;
+    width: 72px;
+    height: 26px;
+    left: 629px;
+    top: 1888px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFB800;
+}
+.zap__6_1{
+    position: absolute;
+    width: 51px;
+    height: 19px;
+    left: 709px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.zap__7{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 976px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.zap__7_1{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 1015px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.zap__8{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 1322px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+.zap__8_1{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 1361px;
+    top: 1894px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.z5{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 283px;
+    top: 1929px;
+}
+.z6{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 630px;
+    top: 1929px;
+}
+.z7{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 976px;
+    top: 1929px;
+}
+.z8{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 1322px;
+    top: 1929px;
+}
+
 
