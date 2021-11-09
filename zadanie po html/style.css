@@ -1,8 +1,8 @@
 .container-fluid {
     width: 1920px;
     height: 36px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 }
 .navbar-collapse{
     flex-grow: 0;
@@ -16,9 +16,9 @@
 .header-two{
     width: 1920px;
     height: 196px;
-    left: 0px;
+    left: 0;
     background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .header__logo{
     position: absolute;
@@ -51,7 +51,7 @@
     left: 477px;
     top: 159px;
     background: #F4F5FA;
-    border-radius: 6px 0px 0px 6px;
+    border-radius: 6px 0 0 6px;
 }
 .search{
     width: 101px;
@@ -59,7 +59,7 @@
     left: 1025px;
     top: 159px;
     background: #005BB9;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0 6px 6px 0;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
@@ -144,7 +144,6 @@
 .name{
     left: 1411px;
     top: 316px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -156,7 +155,6 @@
     height: 23px;
     left: 1411px;
     top: 402px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -269,12 +267,11 @@
     height: 23px;
     left: 315px;
     top: 992px;
-    font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+    text-decoration: none
 }
 .akciya{
     position: absolute;
@@ -282,12 +279,12 @@
     height: 23px;
     left: 576px;
     top: 992px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #005BB9;
+    text-decoration: none
 }
 .buynow{
     position: absolute;
@@ -295,12 +292,12 @@
     height: 23px;
     left: 719px;
     top: 992px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #005BB9;
+    text-decoration: none
 
 }
 .zap1{
@@ -337,7 +334,6 @@
     height: 25px;
     left: 283px;
     top: 1324px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -351,7 +347,6 @@
     height: 25px;
     left: 630px;
     top: 1324px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -364,7 +359,6 @@
     height: 50px;
     left: 976px;
     top: 1324px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -377,7 +371,6 @@
     height: 50px;
     left: 1322px;
     top: 1324px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -390,7 +383,6 @@
     height: 15px;
     left: 283px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -403,7 +395,6 @@
     height: 15px;
     left: 322px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -418,7 +409,6 @@
     height: 26px;
     left: 629px;
     top: 1389px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -431,7 +421,6 @@
     height: 19px;
     left: 709px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -445,7 +434,6 @@
     height: 15px;
     left: 976px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -458,7 +446,6 @@
     height: 15px;
     left: 1015px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -472,7 +459,6 @@
     height: 15px;
     left: 1322px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -485,7 +471,6 @@
     height: 15px;
     left: 1361px;
     top: 1395px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -581,7 +566,6 @@
     height: 25px;
     left: 283px;
     top: 1823px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -595,7 +579,6 @@
     height: 25px;
     left: 630px;
     top: 1823px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -609,7 +592,6 @@
     height: 50px;
     left: 976px;
     top: 1823px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -623,7 +605,6 @@
     height: 50px;
     left: 1322px;
     top: 1823px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -637,7 +618,6 @@
     height: 15px;
     left: 283px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -650,7 +630,6 @@
     height: 15px;
     left: 322px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -664,7 +643,6 @@
     height: 26px;
     left: 629px;
     top: 1888px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -677,7 +655,6 @@
     height: 19px;
     left: 709px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -691,7 +668,6 @@
     height: 15px;
     left: 976px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -704,7 +680,6 @@
     height: 15px;
     left: 1015px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -718,7 +693,6 @@
     height: 15px;
     left: 1322px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -731,7 +705,6 @@
     height: 15px;
     left: 1361px;
     top: 1894px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -798,4 +771,295 @@
     box-sizing: border-box;
     border-radius: 6px;
     color: #005BB9;
+    text-decoration: none
+}
+.news{
+    position: absolute;
+    width: 113px;
+    height: 28px;
+    left: 281px;
+    top: 2147px;
+}
+.news-scroll__devil{
+    position: absolute;
+    width: 1920px;
+    height: 9px;
+    left: 0;
+    top: 2189px;
+    background: #F5F5F5;
+}
+.news-scroll__circl{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 332px;
+    top: 2189px;
+    border-radius: 100px;
+    background: #0C1A2A;
+}
+.news-scroll__circl2{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 676px;
+    top: 2189px;
+    border-radius: 100px;
+    background: #0C1A2A;
+}
+.news-scroll__circl3{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 1045px;
+    top: 2189px;
+    border-radius: 100px;
+    background: #0C1A2A;
+}
+.news-scroll__circl4{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 1409px;
+    top: 2189px;
+    border-radius: 100px;
+    background: #0C1A2A;
+}
+.news-scroll__devildown{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 336px;
+    top: 2198px;
+    background: #0C1A2A;
+}
+.news-scroll__devildown2{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 680px;
+    top: 2198px;
+    background: #0C1A2A;
+}
+.news-scroll__devildown3{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 1049px;
+    top: 2198px;
+    background: #0C1A2A;
+}
+.news-scroll__devildown4{
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 1413px;
+    top: 2198px;
+    background: #0C1A2A;
+}
+.news-scroll__date{
+    position: absolute;
+    width: 106px;
+    height: 22px;
+    left: 283px;
+    top: 2218px;
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+.news-scroll__date p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.news-scroll__date2{
+    position: absolute;
+    width: 106px;
+    height: 22px;
+    left: 627px;
+    top: 2218px;
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+.news-scroll__date2 p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.news-scroll__date3{
+    position: absolute;
+    width: 106px;
+    height: 22px;
+    left: 996px;
+    top: 2218px;
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+.news-scroll__date3 p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.news-scroll__date4{
+    position: absolute;
+    width: 121px;
+    height: 22px;
+    left: 1360px;
+    top: 2218px;
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+.news-scroll__date4 p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.news-scroll__content{
+    position: absolute;
+    width: 153px;
+    height: 19px;
+    left: 283px;
+    top: 2255px;
+}
+.news-scroll__content p{
+    width: 284px;
+    height: 140px;
+    left: 283px;
+    top: 2294px;
+}
+.news-scroll__content2{
+    position: absolute;
+    width: 191px;
+    height: 38px;
+    left: 627px;
+    top: 2255px;
+}
+.news-scroll__content2 p{
+    width: 311px;
+    height: 80px;
+    left: 627px;
+    top: 2313px;
+}
+.news-scroll__content3{
+    position: absolute;
+    width: 268px;
+    height: 38px;
+    left: 996px;
+    top: 2255px;
+}
+.news-scroll__content3 p{
+    width: 260px;
+    height: 120px;
+    left: 996px;
+    top: 2313px;
+}
+.news-scroll__content4{
+    position: absolute;
+    width: 278px;
+    height: 38px;
+    left: 1360px;
+    top: 2255px;
+}
+.news-scroll__content4 p{
+    width: 252px;
+    height: 100px;
+    left: 1360px;
+    top: 2313px;
+}
+.bottom__fone{
+    position: absolute;
+    width: 1920px;
+    height: 408px;
+    left: 0;
+    top: 2554px;
+    background: #0C1A2A;
+}
+.bottom__catalog{
+    position: absolute;
+    width: 80px;
+    height: 21px;
+    left: 283px;
+    top: 2590px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+
+.bottom__rubrikator{
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 497px;
+    top: 2590px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+.bottom__inform{
+    position: absolute;
+    width: 130px;
+    height: 21px;
+    left: 758px;
+    top: 2590px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+
+.bottom__pay{
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 495px;
+    top: 2808px;
+}
+.bottom__contacs{
+    position: absolute;
+    width: 97px;
+    height: 21px;
+    left: 1166px;
+    top: 2590px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+.bottom__adress{
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 1398px;
+    top: 2590px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+
+}
+
+.cvettext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none
 }
