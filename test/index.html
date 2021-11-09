@@ -7,11 +7,68 @@
 </head>
 <body>
 <div class="header">
-    <div class="header__cube"></div>
-    <div class="header__cube"></div>
-    <div class="header__cube"></div>
-</div>
-<div class="header_pos"></div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand g3" href="#">Ваш город: Москва</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Информация
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Сотрудничесиво
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
 
+                    <a class="navbar-brand" href="#">Доставка</a>
+                    <a class="navbar-brand" href="#">Оплата</a>
+                    <a class="navbar-brand" href="#">Гарантия</a>
+                    <a class="navbar-brand" href="#">Новости</a>
+                    <a class="navbar-brand" href="#">журнал</a>
+                    <a class="navbar-brand" href="#">О магазине</a>
+                    <a class="navbar-brand" href="#">Контакты</a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+.container-fluid {
+width: 1920px;
+height: 36px;
+left: 0;
+top: 0;
+}
+.navbar-collapse{
+flex-grow: 0;
+}
+.navbar-brand p {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
 </body>
 </html>

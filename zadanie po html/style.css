@@ -1,129 +1,143 @@
-.container-fluid {
+
+.header-fone{
+    position: absolute;
     width: 1920px;
     height: 36px;
     left: 0;
     top: 0;
+    background: #0F2438;
 }
-.navbar-collapse{
-    flex-grow: 0;
-}
-.navbar-brand p {
+.header-city{
+    position: absolute;
+    width: 128px;
+    height: 16px;
+    left: 307px;
+    top: 10px;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
 }
-.header-two{
+.inform{
+    position: absolute;
+    width: 87px;
+    height: 16px;
+    left: 485px;
+    top: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.partner{
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 617px;
+    top: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.header-nav__menu{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 1033px;
+    top: 10px;
+}
+.header-nav__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.header-two__fone{
+    position: absolute;
     width: 1920px;
     height: 196px;
     left: 0;
+    top: 36px;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-.header__logo{
+.header-two__logo{
     position: absolute;
     width: 246px;
     height: 83px;
     left: 283px;
     top: 56px;
 }
-.header-button{
-    position: absolute;
-    width: 164px;
-    height: 53px;
-    left: 283px;
-    top: 159px;
-}
-.catalog{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
-    background: #005BB9;
-    width: 170px;
-    height: 55px;
-    border-radius:6px;
-}
-.poisk{
-    position: absolute;
-    width: 549px;
-    height: 53px;
-    left: 477px;
-    top: 159px;
-    background: #F4F5FA;
-    border-radius: 6px 0 0 6px;
-}
-.search{
-    width: 101px;
-    height: 53px;
-    left: 1025px;
-    top: 159px;
-    background: #005BB9;
-    border-radius: 0 6px 6px 0;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-.clock__work{
+.header-two__openwork{
     position: absolute;
     width: 258px;
     height: 40px;
     left: 629px;
     top: 77px;
 }
-.adress__tov{
+.header-two__adress{
     position: absolute;
     width: 169px;
     height: 32px;
     left: 975px;
     top: 81px;
 }
-.whats__button{
+.header-two__watsup{
     position: absolute;
-    width: 173px;
-    height: 28px;
-    left: 1204px;
+    width: 204px;
+    height: 30px;
+    left: 1206px;
     top: 82px;
-    background: #E1EFD0;
-    border-radius: 12px;
-}
-.header__phone{
+    cursor: pointer;
+   }
+.header-two__phone{
     position: absolute;
     width: 157px;
     height: 23px;
     left: 1480px;
     top: 77px;
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #0F2438;
 }
-.cvet{
+.header-two__callback{
+    position: absolute;
+    width: 130px;
+    height: 14px;
+    left: 1507px;
+    top: 103px;
+    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    text-decoration-line: underline;
-    color: #0F2438;
-    opacity: 0.7;
-}
-.header__login{
-    position: absolute;
-    width: 411px;
-    height: 32px;
-    left: 1226px;
-    top: 170px;
-}
+    text-decoration: none;
+    }
+
+
+
+
+
 .container__menu{
     position: absolute;
     width: 1042px;
     height: 694px;
     left: 266px;
     top: 262px;
-
 }
-
-.menu__akciya{
+.menu-akciya{
     position: absolute;
     width: 336px;
     height: 190px;
@@ -1009,7 +1023,7 @@
     line-height: 21px;
     color: #868DAC;
 }
-.bottom__inform{
+.bottom-inform__zagolovok{
     position: absolute;
     width: 130px;
     height: 21px;
@@ -1021,15 +1035,27 @@
     line-height: 21px;
     color: #868DAC;
 }
+.bottom-inform__content{
+    position: absolute;
+    width: 276px;
+    height: 32px;
+    left: 758px;
+    top: 2625px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
 
 .bottom__pay{
     position: absolute;
     width: 104px;
     height: 16px;
-    left: 495px;
+    left: 760px;
     top: 2808px;
 }
-.bottom__contacs{
+.bottom-contacs__zagolovok{
     position: absolute;
     width: 97px;
     height: 21px;
@@ -1041,7 +1067,14 @@
     line-height: 21px;
     color: #868DAC;
 }
-.bottom__adress{
+.bottom-contacs__content{
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    left: 1166px;
+    top: 2623px;
+}
+.bottom-adreess__zagalovok{
     position: absolute;
     width: 60px;
     height: 21px;
@@ -1052,14 +1085,108 @@
     font-size: 18px;
     line-height: 21px;
     color: #868DAC;
-
 }
-
-.cvettext{
+.bottom-adreess__content{
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 1398px;
+    top: 2623px;
     font-style: normal;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.cvettext{
+    font-style: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 22px;
     color: #FFFFFF;
     text-decoration: none
+}
+
+.bottom-online__zagalovok{
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 1167px;
+    top: 2684px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+.forma_callback{
+    position: absolute;
+    width: 195px;
+    height: 21px;
+    left: 1430px;
+    top: 2684px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.bottom-sing__border{
+    position: absolute;
+    width: 470px;
+    height: 40px;
+    left: 1167px;
+    top: 2815px;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.sing{
+    position: absolute;
+    width: 177px;
+    height: 40px;
+    left: 1460px;
+    top: 2815px;
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+}
+.bottom-sing__email{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 1184px;
+    top: 2824px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ADBDD1;
+}
+.bottom-soc-sing__facebook{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1381px;
+    top: 2888px;
+}
+.bottom-soc-sing__telegram{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1456px;
+    top: 2888px;
+}
+.bottom-soc-sing__twitter{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1533px;
+    top: 2888px;
+}
+.bottom-soc-sing__google{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1608px;
+    top: 2888px;
 }
