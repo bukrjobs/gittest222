@@ -859,6 +859,8 @@
     left: 1520px;
     top: 1948px;
 }
+
+
 .next-products{
     position: absolute;
     width: 187px;
@@ -872,6 +874,8 @@
     color: #005BB9;
     text-decoration: none
 }
+
+
 .news{
     position: absolute;
     width: 113px;
@@ -1075,6 +1079,8 @@
     left: 1360px;
     top: 2313px;
 }
+
+
 .bottom__fone{
     position: absolute;
     width: 1920px;
@@ -1095,7 +1101,6 @@
     line-height: 21px;
     color: #868DAC;
 }
-
 .bottom__rubrikator{
     position: absolute;
     width: 116px;
@@ -1132,7 +1137,6 @@
     line-height: 16px;
     color: #FFFFFF;
 }
-
 .bottom__pay{
     position: absolute;
     width: 104px;
@@ -1190,7 +1194,6 @@
     color: #FFFFFF;
     text-decoration: none
 }
-
 .bottom-online__zagalovok{
     position: absolute;
     width: 240px;
